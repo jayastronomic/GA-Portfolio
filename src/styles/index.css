@@ -1,0 +1,21 @@
+.gif-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex: 1 0 auto;
+  justify-content: center;
+}
+
+.about-me-container {
+  display: flex;
+  justify-content: flex-end;
+  height: 15rem;
+}
+
+.about-me {
+  width: 8rem;
+  font-family: "uni-sans";
+  filter: drop-shadow(0 1px 10px);
+  font-size: 0.9rem;
+}

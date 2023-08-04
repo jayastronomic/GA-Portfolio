@@ -1,0 +1,92 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #0a0a0a;
+  color: rgba(255, 255, 255, 0.721);
+}
+h1 {
+  font-family: "uni-sans";
+  font-size: 1.5rem;
+  filter: drop-shadow(0 1px 10px);
+}
+
+h5 {
+  font-family: "uni-sans-bold";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "uni-sans";
+  src: url("../fonts/uni-sans/Uni\ Sans\ Thin.otf");
+}
+
+@font-face {
+  font-family: "uni-sans-bold";
+  src: url("../fonts/uni-sans/Uni\ Sans\ Thin\ Italic.otf");
+}
+
+.uni-sans {
+  font-family: "uni-sans";
+}
+
+.uni-sans-bold {
+  font-family: "uni-sans-bold";
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 1.5rem 3.2rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+nav i {
+  font-size: x-large;
+}
+
+nav div.nav-links {
+  display: none;
+  font-family: uni-sans;
+}
+
+nav div.nav-links a {
+  text-decoration: none;
+  color: white;
+  margin-right: 1.9rem;
+  font-size: 1rem;
+}
+
+.home-link {
+  text-decoration: none;
+  color: white;
+}
+
+@media (width >= 800px) {
+  nav i.fa-bars {
+    display: none;
+  }
+
+  nav div.nav-links {
+    display: flex;
+  }
+}
